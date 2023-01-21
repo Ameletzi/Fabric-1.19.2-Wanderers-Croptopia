@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:sausage"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "croptopia:butter"
+    }
+  ],
+  "result": {
+    "item": "wanderers-croptopia:sausage_bap",
+    "count": 1
+  }
+}

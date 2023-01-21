@@ -44,6 +44,15 @@ sourceSets {
         }
     }
 }
+
+repositories {
+	maven { url 'https://modmaven.dev/' }
+	mavenCentral()
+	flatDir {
+		dirs 'K:/Minecraft Mods'
+	}
+}
+
 dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
@@ -57,6 +66,12 @@ dependencies {
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
+
+	//attempt to integrate Croptopia with the modding IDE so at to test my mod alongside the standard Croptopia mod.
+	//runtimeOnly('K:/Minecraft Mods/Croptopia-1.19.2-FABRIC-2.2.1')
+	//attempt to figure out how to test mod alongside failed, brain hurty
+	//use this in future: https://forums.minecraftforge.net/topic/95661-adding-mods-to-intellij-run/
+	//					  https://moddingtutorials.org/dependencies/
 }
 
 processResources {
@@ -66,6 +81,24 @@ processResources {
 		expand "version": project.version
 	}
 }
+
+def dataOutput = 'src/main/generated'
+
+loom {
+	runs{
+		datagen{
+			server()
+
+			name "Data Generation"
+			vmArg "Dfabric-api.datagen"
+			vmArg "-Dfabric-api.datagen.output-dir=${file(dataOutput)}"
+
+			runDir "build/datagen"
+		}
+	}
+}
+
+sourceSets { main { resources { srcDirs += dataOutput } } }
 
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 17

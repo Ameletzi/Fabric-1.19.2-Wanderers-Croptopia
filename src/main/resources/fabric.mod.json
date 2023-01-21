@@ -22,14 +22,14 @@
 			"ameletzi.wandererscroptopia.WanderersCroptopiaClient"
 		],
 		"fabric-datagen": [
-			"ameletzi.wandererscroptopia.WanderersCroptopiaDataGenerator"
+			"ameletzi.wandererscroptopia.datagen.WanderersCroptopiaDataGenerator"
 		]
 	},
 	"mixins": [
 		"wanderers-croptopia.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.13",
+		"fabricloader": ">=0.14.12",
 		"minecraft": "~1.19.2",
 		"java": ">=17",
 		"fabric-api": "*"

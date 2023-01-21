@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:frying_pan"
+    },
+    {
+      "item": "croptopia:flour"
+    },
+    {
+      "item": "croptopia:chile_pepper"
+    },
+    {
+      "item": "croptopia:blackbean"
+    },
+    {
+      "item": "croptopia:paprika"
+    },
+    {
+      "item": "croptopia:onion"
+    },
+    {
+      "item": "croptopia:pepper"
+    }
+  ],
+  "result": {
+    "item": "wanderers-croptopia:spicy_pasty",
+    "count": 1
+  }
+}
