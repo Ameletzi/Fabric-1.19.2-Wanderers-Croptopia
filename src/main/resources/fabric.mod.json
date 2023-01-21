@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "wanderers-croptopia",
+	"version": "${version}",
+	"name": "Wanderer's Croptopia",
+	"description": "In my travels I have found myself wanting for food and yet never having the ingredients I need to hand. As such, I have dared to combine what was once uncombinable in the brave attempt to eat new foods, to taste new dishes, and to boldly chew what no player has chewed before!",
+	"authors": [
+		"Ameletzi"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Ameletzi/Fabric-1.19.2-Wanderers-Croptopia"
+	},
+	"license": "MIT",
+	"icon": "assets/wanderers-croptopia/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ameletzi.wandererscroptopia.WanderersCroptopia"
+		],
+		"client": 	[
+			"ameletzi.wandererscroptopia.WanderersCroptopiaClient"
+		],
+		"fabric-datagen": [
+			"ameletzi.wandererscroptopia.WanderersCroptopiaDataGenerator"
+		]
+	},
+	"mixins": [
+		"wanderers-croptopia.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.13",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
