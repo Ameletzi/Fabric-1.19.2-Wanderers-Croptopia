@@ -27,6 +27,10 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.WANDERERS_MENU).food(ModFoodComponents.SPICY_PASTY)));
     public static final Item BEANS_ON_TOAST = registerItem("beans_on_toast",
             new Item(new FabricItemSettings().group(ModItemGroup.WANDERERS_MENU).food(ModFoodComponents.BEANS_ON_TOAST)));
+    public static final Item WAFFLE = registerItem("waffle",
+            new Item(new FabricItemSettings().group(ModItemGroup.WANDERERS_MENU).food(ModFoodComponents.WAFFLE)));
+    public static final Item TOGETHER_BREAKFAST = registerItem("together_breakfast",
+            new Item(new FabricItemSettings().group(ModItemGroup.WANDERERS_MENU).food(ModFoodComponents.TOGETHER_BREAKFAST)));
 
 
 
