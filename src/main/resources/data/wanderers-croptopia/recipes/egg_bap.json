@@ -2,12 +2,6 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "croptopia:cooked_bacon"
-    },
-    {
-      "item": "croptopia:hashed_brown"
-    },
-    {
       "item": "croptopia:sunny_side_eggs"
     },
     {
@@ -15,13 +9,10 @@
     },
     {
       "item": "croptopia:butter"
-    },
-    {
-      "item": "croptopia:frying_pan"
     }
   ],
   "result": {
-    "item": "wanderers-croptopia:breakfast_bap",
+    "item": "wanderers-croptopia:egg_bap",
     "count": 1
   }
 }
