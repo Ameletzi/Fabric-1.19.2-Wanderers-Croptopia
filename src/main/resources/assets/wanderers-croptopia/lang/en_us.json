@@ -1,9 +1,12 @@
 {
   "item.wanderers-croptopia.bacon_bap": "Bacon Bap",
+  "item.wanderers-croptopia.breakfast_bap": "Breakfast Bap",
+  "item.wanderers-croptopia.egg_bap": "Egg Bap",
   "item.wanderers-croptopia.sausage_bap": "Sausage Bap",
   "item.wanderers-croptopia.wanderers_menu": "Wanderer's Menu",
   "item.wanderers-croptopia.vegetable_pasty": "Veggie Pasty",
   "item.wanderers-croptopia.spicy_pasty": "Spicy Pasty",
+  "item.wanderers-croptopia.beans_on_toast": "Beans on Toast",
 
   "itemGroup.wanderers-croptopia.wanderers_menu": "Wanderer's Menu"
 }

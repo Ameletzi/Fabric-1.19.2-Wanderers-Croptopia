@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:baked_beans"
+    },
+    {
+      "item": "croptopia:toast"
+    }
+  ],
+  "result": {
+    "item": "wanderers-croptopia:beans_on_toast",
+    "count": 1
+  }
+}

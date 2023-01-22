@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooked_bacon"
+    },
+    {
+      "item": "croptopia:hashed_brown"
+    },
+    {
+      "item": "croptopia:sunny_side_up_egg"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "croptopia:butter"
+    },
+    {
+      "item": "croptopia:frying_pan"
+    }
+  ],
+  "result": {
+    "item": "wanderers-croptopia:breakfast_bap",
+    "count": 1
+  }
+}
